@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>SandBox | Main</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <span>SandBox</span>
+        </div>
+    </header>
+    <nav class="navPanel">
+        <ul class="MenuItems">
+            Menu
+            <li class="MenuItem"><a href="#page1">For Scripts</a></li>
+            <li class="MenuItem"><a href="#page2">For_Animation</a></li>
+            <li class="MenuItem"><a href="#page3">Empty</a></li>
+            <li class="MenuItem"><a href="#page4">Grid</a></li>
+        </ul>
+        <nav class="Back"><a id="BackButton" href="#page1">Назад</a></nav>
+    </nav>
+    <main class="Content" id="page1">
+        <div class="Page">
+            <div class="Container P1">
+
+            </div>
+            <div class="ButtonContainer">
+                <button class="RunScript" id="RunScript1"></button>
+                <span class="go">Go</span>
+            </div>
+            <script src="./Scripts/script_3.js"></script>
+        </div>
+        <div class="Page" id="page2">
+            <div class="Container P2">
+                <div class="AniBox">
+
+                </div>
+            </div>
+            <div class="Container RS">
+                <div class="RuningString">
+                    <span>Vivamus consequat bibendum ex, non vulputate justo.</span>
+                </div>
+            </div>
+        </div>
+        <div class="Page" id="page3">
+
+        </div>
+        <div class="Page" id="page4">
+            <div class="Grid_Page_Areas">
+                <section class="left">LEFT
+                    <details>
+                        <summary>Open It</summary>
+                        <P>Hello!</P>
+                    </details>
+                </section>
+                <section class="centr">CENTR
+                    <section class="Container P4">
+                        <dl class='DataItems'>
+                            <dt class="DataKey">100</dt>
+                            <dd class="DataItem">батонов</dd>
+                        </dl>
+                        <dl class='DataItems'>
+                            <dt class="DataKey">5</dt>
+                            <dd class="DataItem">колбас</dd>
+                        </dl>
+                        <dl class='DataItems'>
+                            <dt class="DataKey">30</dt>
+                            <dd class="DataItem">масел</dd>
+                        </dl>
+                    </section>
+                    <section class="Container P4">
+                        <ul>
+                            <li class="navPoint">&#9742</li>
+                            <li class="navPoint">&#9993</li>
+                            <li class="navPoint"></li>
+                            <li class="navPoint"></li>
+                            <li class="navPoint"></li>
+                        </ul>
+                    </section>    
+                </section>
+                <section class="right">RIGHT</section>
+                <section class="down">DOWN</section>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>нижняя панель</p>
+        </footer>
+    </main>
+</body>
+
+</html>
